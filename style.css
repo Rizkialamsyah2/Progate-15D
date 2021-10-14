@@ -2,3 +2,64 @@ body {
   margin: 0;
   font-family: "Lucida Grande";
 }
+
+  .profile-wrapper {
+    height: 560px;
+    padding-bottom: 80px;
+    background-image: url(bg_profle.PNG);
+    text-align: center;
+  }
+  
+  .heading h1 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: #5f5d60;
+    letter-spacing: 10px;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .profile {
+    float: left;
+    width: 18%;
+    background-color: #fff;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    line-height: 25px;
+    }
+  
+  .profile-icon {
+    position: relative;
+  }
+
+  .profile img {
+    width: 80%;
+  }
+
+  
+  .profile-icon p {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    color: white;
+  }
+  
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #b3aeb5;
+  }
+
+  .sosmed-wrapper {
+    margin: 10px 0;
+  }
+  
+  .heading h3 {
+    font-weight: normal;
+  }
+  

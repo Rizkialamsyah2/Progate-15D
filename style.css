@@ -31,7 +31,7 @@ body {
     background-color: #3b5998;
   }
 
-.github {
+  .github {
   background-color: #090f1f;
 }
   
@@ -57,55 +57,53 @@ body {
   
 <!--Profil Wrapper-->
 
-  .profile-wrapper {
-    height: 2300px;
-    padding-bottom: 80px;
-    background-color: rgb(196, 228, 255);
-    text-align: center;
+.profile-wrapper {
+  height: 720px;
+  width: 100%;
+  padding-bottom: 80px;
+  background-color: #eaf1ff;
+  background-size: cover;
+  text-align: center;
+}
+
+.heading h1 {
+  color: #1b1a1b;
+  letter-spacing: 15px;
+  font-size: 30px;
+}
+
+.profile {
+  float: left;
+  width: 18%;
+  background-color: #fff;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(193, 203, 235);
+  box-shadow: hsl(221, 30%, 77%) 3px 3px ;
+  line-height: 25px;
+    
   }
-  
-  .heading h1 {
-    padding-top: 40px;
-    padding-bottom: 20px;
-    color: #5f5d60;
-    letter-spacing: 10px;
-  }
-  
-  .profiles {
-    margin-left: 150px;
-    }
 
-  .profile {
-    width: 80%;
-    text-align: center;
-    background-image: url(ds_risma.png);
-    background-size: cover;
-    padding: 5px;
-    margin: 10px;
-    border-radius: 5px;
-    line-height: 25px;
-    }
-  
-  .profile-icon {
-    position: relative;
-    }
+.profile-icon {
+  position: relative;
+}
 
-  .profile img {
-    width: 20%;
-    }
-  
-  .txt-contents {
-    width: 70%;
-    font-family: "Lucida Sans";
-    font-weight: bold;
-    display: inline-block;
-    font-size: 13px;
-    color: #000000;
-    }
+.profile img {
+  width: 80%;
+}
 
-  .sosmed-wrapper {
-    margin: 10px ;
-    }
+.txt-contents {
+  width: 90%;
+  display: inline-block;
+  font-size: 15px;
+  color: #091d49;
+  font-family: cambria;
+}
+
+.sosmed-wrapper {
+  margin: 10px 0;
+}
 
 <!--End Profil Wrapper-->
 

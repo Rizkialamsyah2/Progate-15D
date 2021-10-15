@@ -1,0 +1,29 @@
+@media (max-width: 670px){
+    .body {
+        width: 670px;
+    }
+    
+    .container {
+        width: 600px;
+    }
+    
+    .profile {
+        width: 85%;
+    }
+
+    .profile img {
+        width: 50%;
+    }
+
+
+}
+
+@media (max-width: 1000px) {
+    .container {
+        width: 800px;
+    }
+
+    .profile {
+        width: 45%;
+    }
+}
